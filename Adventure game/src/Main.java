@@ -5,13 +5,12 @@ public class Main {
         Sword magicSword = new Sword();
         Pillow softPillow = new Pillow();
         Mace bigMace = new Mace();
-
-        Enemy greenOgre = new Enemy("greenOgre", 35, 20);
-        Enemy redOgre = new Enemy("redOgre", 35, 20);
-        Enemy slowZombie = new Enemy("slowZombie", 15, 10);
-        Enemy fastZombie = new Enemy("fastZombie", 15, 10);
-        Enemy spotDog = new Enemy("spotDog", 20, 10);
-        Enemy Emperor = new Enemy("Kaido",75,50);
+        Ogre greenOgre = new Ogre("Green","20 inch");
+        Ogre redOgre = new Ogre("Red","30 inch");
+        Zombie slowZombie = new Zombie(15);
+        Zombie fastZombie = new Zombie(25);
+        Dog spotDog = new Dog("Dog can see in the dark");
+        Kaido Emperor = new Kaido("Can turn into Demonic Dragon");
 
 
 
